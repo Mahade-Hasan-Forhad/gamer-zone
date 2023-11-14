@@ -1,0 +1,507 @@
+/* work sans font */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700;800&family=Poppins:wght@400;500;600;700&family=Work+Sans:wght@500;600;700;800&display=swap');
+
+/* shared styles */
+.text-primary {
+    font-size: 2.99rem;
+    font-weight: 700;
+    color: #FF42A5;
+}
+
+.text-play {
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+
+
+/* header */
+nav {
+    max-width: 1920px;
+    height: 130px;
+    background: #FFF;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
+    display: flex;
+}
+
+nav>ul {
+    display: flex;
+}
+
+nav li {
+    list-style: none;
+}
+
+nav li a {
+    text-decoration: none;
+    color: #3C354F;
+    font-size: 1.125rem;
+    font-weight: 500;
+}
+
+.nav-box ul {
+    display: flex;
+}
+
+.nav-box {
+    width: 262px;
+    height: 56px;
+    background: #FFF;
+    border-radius: 8px;
+    background: rgba(11, 2, 35, 0.10);
+    margin-top: 37px;
+    /* margin-bottom: 37px;
+    margin-right: 200px; */
+}
+
+.nav-img {
+    width: 86.041px;
+    height: 40px;
+    flex-shrink: 0;
+    padding-left: 180px;
+    padding-top: 44px;
+}
+
+.nav-tittle {
+    padding-left: 20px;
+    /* padding-top: 8px; */
+    font-size: 2.6rem;
+    font-weight: 700;
+    color: #0B0223;
+}
+
+.nav-ul {
+    margin-top: 54px;
+    padding-left: 581px;
+    padding-right: 32px;
+    gap: 32px;
+}
+
+
+.nav-box-text {
+    padding-top: 18px;
+}
+
+.nav-box-img {
+    padding-left: 24px;
+    gap: 10px;
+}
+
+/* goat */
+.goat {
+    display: flex;
+}
+
+.goat-container {
+    width: 750px;
+    height: 600px;
+    gap: 0;
+}
+
+.goat-title {
+    color: #0B0223;
+    /* text-align: center; */
+    font-size: 3rem;
+    font-weight: 600;
+    padding-top: 100px;
+    padding-left: 175px;
+    text-transform: uppercase;
+}
+
+.goat-name {
+    padding-left: 175px;
+    padding-top: 0;
+    font-size: 5rem;
+    font-weight: 800;
+    text-transform: uppercase;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.goat-description {
+    padding-left: 175px;
+    color: #534C64;
+    font-size: 1.129rem;
+    font-weight: 500;
+}
+
+.sign-btn {
+    margin-left: 175px;
+    display: inline-flex;
+    padding: 21px 40px;
+    align-items: flex-start;
+    gap: 10px;
+    border-radius: 48px;
+    background: var(--Linear, linear-gradient(90deg, #FF42A5 13.13%, #FF42A5 87.94%));
+    border: none;
+    color: #FFF;
+    font-size: 1.25rem;
+    font-weight: 600;
+}
+
+.rouge-btn {
+    display: inline-flex;
+    padding: 21px 40px;
+    align-items: flex-start;
+    gap: 10px;
+    border-radius: 48px;
+    background: #4EC5F7;
+    border: none;
+    color: #FFF;
+    font-size: 1.25rem;
+    font-weight: 600;
+}
+
+/* Online games */
+
+.text-funny {
+    font-size: 2.9rem;
+    font-weight: 700;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.online-tittle {
+    color: #0B0223;
+    font-size: 2.9rem;
+    padding-left: 600px;
+}
+
+.online-description {
+    padding-left: 600px;
+    color: #534C64;
+    font-size: 1.125rem;
+    font-weight: 400;
+}
+
+.online-box-container {
+    display: flex;
+    gap: 20px;
+    padding-left: 175px;
+    padding-top: 48px;
+}
+
+.card-img {
+    width: 300px;
+    height: 400px;
+    flex-shrink: 0;
+    border-radius: 16px;
+}
+
+.card-description {
+    width: 300px;
+}
+
+/* instant play */
+.play-instant {
+    display: flex;
+    gap: 240px;
+}
+
+.instant-content {
+    text-align: center;
+}
+
+.instant-tittle {
+    width: 340px;
+    padding-left: 240px;
+    padding-top: 230px;
+    color: #0B0223;
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+.instant-description {
+    width: 353px;
+    padding-left: 240px;
+    color: #534C64;
+    font-size: 1.125rem;
+    font-weight: 400;
+}
+
+.instant-img {
+    width: 634.833px;
+    height: 650px;
+    border-radius: 8px;
+    margin-top: 100px;
+    height: 90%;
+}
+
+.instant-sub-img {
+    width: 318.5px;
+    height: 365.083px;
+    position: relative;
+    bottom: 300px;
+
+}
+
+/* play online */
+.play-online {
+    display: flex;
+    padding-left: 180px;
+}
+
+.online-content {}
+
+.online-tittle {
+    width: 420px;
+    padding-top: 240px;
+
+}
+
+.online-description {
+    width: 480px;
+
+}
+
+.online-img {
+    width: 510px;
+    height: 650px;
+    border-radius: 8px;
+}
+
+.online-sub-img {
+    width: 218px;
+    height: 265px;
+    border-radius: 8px;
+    position: relative;
+    bottom: 300px;
+    padding-left: 480px;
+
+}
+
+/* button section */
+
+.button {
+    margin-top: 120px;
+    gap: 27px;
+    margin-left: 180px;
+}
+
+.btn-one,
+.btn-two {
+    display: flex;
+}
+
+.btn-two {
+    padding-top: 28px;
+    padding-left: 120px;
+}
+
+.btn-common {
+    width: 243px;
+    height: 80px;
+    flex-shrink: 0;
+    border-radius: 50px;
+    background: #FFF;
+    display: flex;
+
+
+}
+
+
+.btn-img {
+    width: 60px;
+    height: 60px;
+    flex-shrink: 0;
+    border-radius: 50px;
+}
+
+.btn-description {
+    color: #0B0223;
+    font-size: 1.25rem;
+    font-weight: 600px;
+    max-width: 137px;
+    padding-left: 16px;
+}
+
+.btn-description-pink {
+    color: #FF42A5;
+    font-size: 1.25rem;
+    font-weight: 600px;
+    max-width: 137px;
+    padding-left: 16px;
+}
+
+/* footer */
+.footer {
+    width: 1920px;
+    height: 436px;
+    background: #0B0223;
+    margin-top: 140px;
+}
+
+.footer-content {
+    display: flex;
+    gap: 20px;
+
+}
+
+.footer-img {
+    padding-left: 630px;
+    width: 86.041px;
+    height: 40px;
+    padding-top: 90px;
+}
+
+.footer-tittle {
+    font-size: 2.9rem;
+    font-weight: 700;
+    color: #FFF;
+    padding-top: 40px;
+}
+
+.footer-description,
+.footer-tnc {
+    display: flex;
+    gap: 60px;
+}
+
+.footer-description {
+    padding-left: 390px;
+}
+
+.footer-description p {
+    color: #FFF;
+    font-size: 1.13rem;
+    font-weight: 600;
+}
+
+.footer-tnc {
+    padding-left: 442px
+}
+
+.footer-end {
+    padding-left: 545px
+}
+
+.footer-tnc p,
+.footer-end p {
+    color: rgba(255, 255, 255, 0.60);
+    font-weight: 500;
+}
+
+/* responsive */
+/* mobile */
+
+@media screen and (max-width:576px) {
+
+    nav,
+    .nav-ul,
+    .nav-box,
+    .goat,
+    .online-box-container,
+    .play-instant,
+    .play-online,
+    .btn-one,
+    .btn-two {
+        flex-direction: column;
+    }
+
+    nav {
+        width: 0;
+    }
+
+    .goat {
+        margin-top: 200px;
+        margin-left: 50px;
+    }
+
+    .goat-title,
+    .goat-name,
+    .goat-description {
+        padding-left: 0;
+    }
+
+    .sign-btn {
+        margin-left: 0;
+    }
+
+    .goat-img img {
+        width: 100%;
+    }
+
+
+    .online-tittle,
+    .online-description {
+        padding-left: 120px;
+    }
+
+    .instant-content {
+        text-align: none;
+    }
+
+    .instant-img {
+        margin-left: 80px;
+    }
+
+    .online-img img {
+        width: 100%;
+    }
+
+    .btn-one,
+    .btn-two {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 10px;
+    }
+
+
+    .footer-content,
+    .footer-description,
+    .footer-tnc,
+    .footer-end {
+        max-width: 100%;
+    }
+
+    .footer-description,
+    .footer-tnc {
+        margin-top: 15px;
+    }
+
+    .footer-description p,
+    .footer-tnc p {
+        margin: 5px 0;
+    }
+
+    .footer-end {
+        font-size: 12px;
+    }
+}
+
+
+/* medium */
+@media screen and (min-width:576px) and (max-width: 960px) {
+
+    nav,
+    .goat,
+    .online-box-container,
+    .play-instant,
+    .play-online {
+        flex-direction: column;
+    }
+
+    .goat {
+        padding-top: 200px;
+    }
+
+    .online-tittle,
+    .online-description {
+        text-align: left;
+    }
+
+    .online-box-container {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 10px;
+
+    }
+}
